@@ -1,6 +1,6 @@
 {
   "name": "ember-simple-auth",
-  "version": "7.1.0",
+  "version": "7.1.1",
   "description": "A lightweight library for implementing authentication/authorization with Ember.js applications.",
   "keywords": [
     "ember-addon"
@@ -61,7 +61,8 @@
     "prettier": "3.4.2",
     "rollup": "4.29.1",
     "rollup-plugin-copy": "3.5.0",
-    "typescript": "5.7.2"
+    "typescript": "5.7.2",
+    "webpack": "5.97.1"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
