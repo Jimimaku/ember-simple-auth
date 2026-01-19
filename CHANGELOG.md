@@ -1,5 +1,50 @@
 # Changelog
 
+## Release (2026-01-19)
+
+* ember-simple-auth 8.3.0 (minor)
+
+#### :rocket: Enhancement
+* `ember-simple-auth`
+  * [#3039](https://github.com/mainmatter/ember-simple-auth/pull/3039) Relax sessionData Record type from string to any ([@acorncom](https://github.com/acorncom))
+  * [#3010](https://github.com/mainmatter/ember-simple-auth/pull/3010) feat: redirectTarget, use cookie store configuration to set the cookie. ([@BobrImperator](https://github.com/BobrImperator))
+  * [#3006](https://github.com/mainmatter/ember-simple-auth/pull/3006) Feature: formalize `redirectTarget` across stores. Add ability to set `redirectTarget` with `requireAuthentication` method ([@BobrImperator](https://github.com/BobrImperator))
+
+#### :bug: Bug Fix
+* `ember-simple-auth`
+  * [#3014](https://github.com/mainmatter/ember-simple-auth/pull/3014) Fix FastBoot check in LocalStorageStore always returning false ([@felixbuenemann](https://github.com/felixbuenemann))
+  * [#3012](https://github.com/mainmatter/ember-simple-auth/pull/3012) fix(ember-simple-auth): don't set redirectTarget when falsy ([@BobrImperator](https://github.com/BobrImperator))
+  * [#3007](https://github.com/mainmatter/ember-simple-auth/pull/3007) chore: remove responseText, responseJSON deprecation ([@BobrImperator](https://github.com/BobrImperator))
+  * [#2974](https://github.com/mainmatter/ember-simple-auth/pull/2974) Closes [#2973](https://github.com/mainmatter/ember-simple-auth/issues/2973) Return type of SessionService.invalidate is wrong ([@BoussonKarel](https://github.com/BoussonKarel))
+
+#### :memo: Documentation
+* [#2968](https://github.com/mainmatter/ember-simple-auth/pull/2968) Remove this.get use from readme ([@kennstenicht](https://github.com/kennstenicht))
+
+#### :house: Internal
+* `ember-simple-auth`
+  * [#3019](https://github.com/mainmatter/ember-simple-auth/pull/3019) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))
+  * [#2986](https://github.com/mainmatter/ember-simple-auth/pull/2986) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))
+  * [#3015](https://github.com/mainmatter/ember-simple-auth/pull/3015) chore: bump ember-cookies ([@BobrImperator](https://github.com/BobrImperator))
+  * [#2971](https://github.com/mainmatter/ember-simple-auth/pull/2971) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))
+* Other
+  * [#3020](https://github.com/mainmatter/ember-simple-auth/pull/3020) fix(fastboot): add structuredClone to fastboot startup ([@BobrImperator](https://github.com/BobrImperator))
+  * [#3011](https://github.com/mainmatter/ember-simple-auth/pull/3011) chore(test-app): use service import directly ([@BobrImperator](https://github.com/BobrImperator))
+  * [#3009](https://github.com/mainmatter/ember-simple-auth/pull/3009) chore(test-esa): remove ember-data ([@BobrImperator](https://github.com/BobrImperator))
+  * [#3008](https://github.com/mainmatter/ember-simple-auth/pull/3008) test: login error, check for an actual message and not element presence ([@BobrImperator](https://github.com/BobrImperator))
+  * [#2969](https://github.com/mainmatter/ember-simple-auth/pull/2969) incorrect credentials doesn't show data-test-error-message ([@peter-scholtens](https://github.com/peter-scholtens))
+  * [#3002](https://github.com/mainmatter/ember-simple-auth/pull/3002) test: setup playwright-tests repo with e2e tests ([@BobrImperator](https://github.com/BobrImperator))
+  * [#3003](https://github.com/mainmatter/ember-simple-auth/pull/3003) cleanup: remove ember classic-test-app ([@BobrImperator](https://github.com/BobrImperator))
+  * [#2981](https://github.com/mainmatter/ember-simple-auth/pull/2981) chore(deps): remove ember-fetch. Fails embroider-safe ([@BobrImperator](https://github.com/BobrImperator))
+
+#### Committers: 7
+- Bartlomiej Dudzik ([@BobrImperator](https://github.com/BobrImperator))
+- Christoph Wiedenmann ([@kennstenicht](https://github.com/kennstenicht))
+- David Baker ([@acorncom](https://github.com/acorncom))
+- Felix Bünemann ([@felixbuenemann](https://github.com/felixbuenemann))
+- GitHub Actions [Bot] ([@github-actions](https://github.com/apps/github-actions))
+- Peter C. S. Scholtens ([@peter-scholtens](https://github.com/peter-scholtens))
+- [@BoussonKarel](https://github.com/BoussonKarel)
+
 ## Release (2025-12-03)
 
 * ember-simple-auth 8.2.0 (minor)
