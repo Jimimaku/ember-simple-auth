@@ -1,0 +1,6 @@
+# Unlabeled Changes
+
+* [#3088](https://github.com/mainmatter/ember-simple-auth/pull/3088) Update ember-cli-babel and ember-cli-htmlbars for ember 7 compatibility ([@NullVoxPopuli-ai-agent](https://github.com/NullVoxPopuli-ai-agent))
+
+
+*Cannot plan release until the above changes are labeled*.
